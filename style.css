@@ -1,0 +1,61 @@
+@media (min-width: 300px) {
+}
+
+@media (pointer: coarse) {
+}
+
+.bigRed {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  background-color: rgb(170, 28, 28);
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
+  font-size: 30px;
+  box-shadow: 0 20px #500;
+}
+
+.bigRed:active {
+  box-shadow: 0 10px #500;
+  transform: translateY(4px);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  background-image: url(./metal\ plate.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  align-self: center;
+  font-family: "Courier New", Courier, monospace;
+  border: solid black;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: silver;
+}
+
+.total {
+  align-self: center;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.pushpersec {
+  align-self: center;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+div {
+  border: solid black;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: silver;
+}

@@ -3,9 +3,21 @@ console.log("Hello world");
 const totalAmount = document.getElementById("ttlamount");
 const perSec = document.getElementById("pps");
 const bigRed = document.getElementById("clicker");
+const resetButt = document.getElementById("restart");
+let ttlamount = 0;
+const score = parseInt(localStorage.getItem("ttlamount"));
 
-let ttlamount = parseInt(localStorage.getItem("ttlamount"));
+if (score) {
+  ttlamount = score;
+}
+
 let pps = 1;
+
+resetButt.addEventListener("click", restart);
+
+function restart() {
+  ttlamount;
+}
 
 function increaseAmount() {
   ttlamount += pps;
